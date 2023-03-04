@@ -35,36 +35,7 @@ const showAiHubs = data =>{
             </div> 
           
         </div>
-        `
-
-
-
-
-        // cardContainer.innerHTML += `
-        // <div class="border border-light rounded col-sm-4 p-3 m-0">
-        //     <img src="${singleAiCard?.image}"
-        //         class="img-fluid rounded">
-        //     <p><b>Features</b></p>
-        //     <p>1. ${singleAiCard?.features[0]}</p>
-        //     <p>2. ${singleAiCard?.features[1]}</p>
-        //     <p>3. ${singleAiCard?.features[2]}</p>
-        //     <hr>
-
-        //     <div class="row">
-        //       <div class="col-sm-10">
-        //         <p><b>${singleAiCard?.name}</b></p>
-        //         <p><i class="fa fa-calendar" aria-hidden="true"></i>${singleAiCard?.published_in}</p>
-        //       </div>
-        //       <div class="col-sm-2 text-center">
-        //         <a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
-        //       </div>
-        //     </div> 
-        // </div>
-        // `
-
-
-
-        
+        `        
 
 
         // const cardbox = document.createElement('p');
