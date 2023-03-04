@@ -10,8 +10,7 @@ const showAiHubs = data =>{
     const cardContainer = document.getElementById('card-containers');
     data.tools.forEach(singleAiCard=>{
         // console.log(singleAiCard);
-
-        
+       
         
         cardContainer.innerHTML += `
         <div class="border border-light rounded col-sm-4 p-3 m-0">
