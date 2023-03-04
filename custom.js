@@ -89,15 +89,26 @@ const showAiHubs = data =>{
 }
 
 
-const fetchModalData = id =>{
+const fetchModalData = (id, name) =>{
     // console.log(id);
     const url = `https://openapi.programming-hero.com/api/ai/tool/${id}`;
     fetch(url)
     .then(res => res.json())
-    .then(data =>console.log(data))
+    .then(data =>{
+      fetchData = data.data;
+      showAllInfo(data.data, name)
+    });
 } 
 
-const showAllInfo = data =>{
+const showAllInfo = (data, name) =>{
+  console.log(data, name);
+  document.getElementById("").innerText = name;
+  const aiModalContainer = document.getElementById("all-modal-info");
+  aiModalContainer.innerHTML = "";
+  data.forEach((singleInfo) => {
+    const {id, name} = singleInfo;
+
+  });
     
 
 }
