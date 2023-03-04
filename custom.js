@@ -13,7 +13,7 @@ const showAiHubs = data =>{
        
         
         cardContainer.innerHTML += `
-        <div class="border border-light rounded col-sm-4 p-3 m-0">
+        <div class="border border-light rounded col-sm-4 p-3 m-0 mt-0">
             <img src="${singleAiCard?.image}"
                 class="img-fluid rounded">
             <p><b>Features</b></p>
